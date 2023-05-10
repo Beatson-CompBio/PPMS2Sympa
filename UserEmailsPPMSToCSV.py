@@ -67,9 +67,9 @@ if (len(incucyte_users_new) > 0):
 
 message = message + "QUIT"
 
-smtpServer="mail-relay.beatson.gla.ac.uk"   
-fromAddr="bairuseremaillist@beatson.gla.ac.uk"       
-toAddr="c.mitchell@beatson.gla.ac.uk"   
+smtpServer="xxxxxxxx"   
+fromAddr="xxxxxx"       
+toAddr="xxxxxxxxxxxxxxxx"   
 text= message
 server = smtplib.SMTP(smtpServer)
 server.sendmail(fromAddr, toAddr, text) 
